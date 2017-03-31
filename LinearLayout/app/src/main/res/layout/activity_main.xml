@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="扣钉科技公司"
+        android:gravity="top"
+        android:textSize="20pt"
+        android:background="#aa00ff"
+        android:singleLine="true"
+        android:padding="10dip"
+        android:layout_weight="1.5"
+        android:textColor="#faf5f5" />
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#040404" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:layout_weight="0.31"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="#f7f6f6" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="移动联盟"
+        android:textSize="10pt"
+        android:background="#0000aa"
+        android:padding="17dip"
+        android:layout_weight="1"
+        android:textColor="#f70d0d"
+        android:gravity="center" />
+</LinearLayout>
